@@ -1,9 +1,4 @@
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-  [build]
+[build]
   command = "npm run build"  # Build command
   publish = "build"  # Directory to deploy
 
